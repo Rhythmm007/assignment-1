@@ -70,6 +70,12 @@ h1{
     font-size: 36px;
 }
 
+.plan-para{
+    margin: 10px auto;
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 20px;
+}
+
 .plan-wrapper{
     margin-top: 50px;
     display: flex;
@@ -102,7 +108,7 @@ h1{
                                                                         /* call section  */
 
 .call-me{
-    margin: 50px 150px;
+    margin: 100px 150px;
     padding: 30px 70px;
     background:linear-gradient(90deg ,rgba(244, 85, 0, 0.781), rgba(0,0,0, 0.432)), url("images/watch.png") no-repeat left top;
     border-radius: 10px;
