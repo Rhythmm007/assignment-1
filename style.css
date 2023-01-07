@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+                                                            /* Banner part */
+
+header{
+    padding: 200px 170px;
+    text-align: end;
+    background-image: url(images/banner/banner1.png);
+}
+
+h1{
+    font-size: 48px;
+}
+
+.banner-para{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 25px 0;
+}
+
+.banner-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 85, 0);
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+                                                            /* failure section  */
+
+.failure-heading{
+    font-size: 36px;
+}
+
+.failure-para{
+    margin: 15px 0;
+}
+
+.failure-container{
+    display: flex;
+    gap: 100px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sad{
+    height: 600px;
+}
+
+.failure-container ul li{
+    margin: 8px 0;
+    list-style-type: none;
+    padding-left: 30px;
+    background-image: url(images/icons/green-checkmark.svg);
+    background-repeat: no-repeat;
+}
+                                                                    /* plan section  */
+.plan-container{
+    text-align: center;
+    padding-left: 170px;
+}
+
+.plan-heading{
+    font-size: 36px;
+}
+
+.plan-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
