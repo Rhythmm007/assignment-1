@@ -75,11 +75,107 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+                                                                    /* progress */
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.progress-heading{
+    font-size: 48px;
+}
+
+.progress-para{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 25px 0;
+}
+
+.progress-wrapper ul li{
+    list-style-type: none;
+    background-image: url(images/icons/green-checkmark.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+                                                                        /* call section  */
+
+.call-me{
+    margin: 50px 150px;
+    padding: 30px 70px;
+    background:linear-gradient(90deg ,rgba(244, 85, 0, 0.781), rgba(0,0,0, 0.432)), url("images/watch.png") no-repeat left top;
+    border-radius: 10px;
+}
+
+.call-heading{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.call-btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(244, 85, 0);
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+                                                                            /* footer */
 
 
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
+.footer-heading{
+    font-size: 36px;
+}
 
+.footer-para{
+    margin: 20px 0;
+}
 
+.contact-info{
+    margin: 15px 0;
+}
 
+footer section a{
+    margin-right: 20px;
+}
 
+form label,
+#email,
+form button{
+    display: block;
+}
+
+footer label{
+    font-size: 24px;
+}
+
+#email{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+form button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(244, 85, 0);
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+}
